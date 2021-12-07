@@ -26,9 +26,8 @@ function filter(shouldPriority) {
     document.getElementById('plist').innerHTML = list
 }
 
-function random() {
-    let packages = Object.keys(package)
-    let package = packages[Math.floor(Math.random() * package.length)]
+function random(packages) {
+    let = packages[Math.floor(Math.random() * packages.length)]
 }
 
 
